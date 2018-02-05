@@ -13,7 +13,7 @@ Data Source: <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classificati
 # Steps
 
 **train_model.py**
-Reads data in csv format, train a *ensemble.ExtraTreesClassifier* model (Achieved 0.982 for the mean column-wise ROC AUC.), and then save the model.
+Read data in csv format, train an *ensemble.ExtraTreesClassifier* model (Achieved 0.982 for the mean column-wise ROC AUC.), and then save the model.
 
 **predict.py**
 contain a function *predict* that returns a list of 6 numeric values in range of (0, 1), each for one type of toxicity. The function is callable by other programs.
