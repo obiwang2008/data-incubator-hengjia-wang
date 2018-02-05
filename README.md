@@ -8,7 +8,7 @@ The predicting model is then deployed onto Heroku. Here is the link to the Webap
   http://data-incubator-hengjia-wang.herokuapp.com </a>
   
 Data Source: <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data">
- this Kaggle competition </a>
+ Toxic Comment Classification Challenge on Kaggle </a>
  
 # Steps
 
