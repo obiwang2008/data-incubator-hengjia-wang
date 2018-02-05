@@ -10,4 +10,16 @@ The predicting model is then deployed onto Heroku. Here is the link to the Webap
 Data Source: <a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data">
  this Kaggle competition </a>
  
- 
+# Steps
+
+**train_model.py**
+Reads data in csv format, train a *ensemble.ExtraTreesClassifier* model (Achieved 0.982 for the mean column-wise ROC AUC.), and then save the model.
+
+**predict.py**
+contain a function *predict* that returns a list of 6 numeric values in range of (0, 1), each for one type of toxicity. The function is callable by other programs.
+
+**app.py**
+This program read the input comment and return the prediction on the Webapp.
+
+*Contact*
+For any questions or advices, please email <hengjiawang1990@gmail.com>
