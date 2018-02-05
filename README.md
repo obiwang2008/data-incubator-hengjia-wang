@@ -21,5 +21,5 @@ contain a function *predict* that returns a list of 6 numeric values in range of
 **app.py**
 This program read the input comment and return the prediction on the Webapp.
 
-*Contact*
+# Contact
 For any questions or advices, please email <hengjiawang1990@gmail.com>
