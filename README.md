@@ -1,4 +1,4 @@
-# data-incubator-hengjia-wang
+# Toxic Comments Predictor
 Use machine learning to spot abuse and harassment online.
 
 # About
